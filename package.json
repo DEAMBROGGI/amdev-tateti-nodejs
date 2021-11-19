@@ -12,7 +12,7 @@
     "build-js": "browserify src/client/js/index.js -o public/app.js -t [ babelify --presets [ es2015 ] ]",
     "build": "npm run compile-server && npm run public && npm run build-js",
     "compile-server": "babel src/server/index.js src/server/**/*.js --out-dir dist --presets es2015",
-   
+   "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adrian Deambroggi",
   "license": "ISC",
