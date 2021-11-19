@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.6.1"
+  },
   "scripts": {
     "start": "npm run build && node dist/src/server",
     "public": "if not exist \"public\" mkdir -p public && cp -r src/client/css public/ && cp src/client/index.html public/",
